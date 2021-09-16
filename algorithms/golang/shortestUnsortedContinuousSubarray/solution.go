@@ -27,10 +27,10 @@ func findUnsortedSubarray(nums []int) int {
 		}
 	}
 
-	if right<=left{
+	if right <= left {
 		return 0
 	}
 
-	return right-left+1
+	return right - left + 1
 
 }
